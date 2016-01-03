@@ -4,17 +4,50 @@ body {
 	font-family: Monospace;
 	color: #555555;
 	background-color: #000000;
-	margin: 0;
 	overflow: hidden;
 }
 
+/* unvisited link */
+a {
+  color: #7777FF;
+}
+
 #frame {
-	height: 500px;
+	height: 450px;
 	width: 700px;
 	display: inline;
 	position: fixed;
  	top: 50%;
  	left: 50%;
- 	margin-top: -250px;
+ 	margin-top: -225px;
  	margin-left: -350px;
+ 	z-index: 20;
+}
+
+#addressBar {
+	width: 80%;
+	background-color: #550000;
+	color: #777777;
+	padding: 20px;
+	margin: 0 auto;
+	margin-top: 10px;
+	text-align: center;
+	font-size: large;
+}
+
+#footer {
+	position: fixed;
+	bottom:0px;
+	height:40%;
+	width:100%;
+	background:#000077;
+}
+
+#footer-text {
+	position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    color: #777777;
+    font-size: large;
 }

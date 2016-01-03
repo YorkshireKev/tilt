@@ -7,5 +7,15 @@ function deviceMoved(event) {
   document.getElementById("frame").style.transform = "rotate(" + rotateDeg + "deg)";
 }
 
-//Set up event handler for  device movement.
+//Set up event handler for device movement.
 window.addEventListener("deviceorientation", deviceMoved, true);
+
+//Add some handlers for beck, forward and change url
+document.getElementById("goUrl").onclick = function () {
+  var yyy = document.getElementById("frame"); //Put the iframe ref into a variable or it won't work in firefox!
+  if (document.getElementById("newUrl").value.substring(0, 4) !== 'http') {
+    yyy.src = "http://" + document.getElementById("newUrl").value;
+  } else {
+    yyy.src = document.getElementById("newUrl").value;
+  }
+};
