@@ -1,0 +1,20 @@
+
+body {
+	margin: 0;
+	font-family: Monospace;
+	color: #555555;
+	background-color: #000000;
+	margin: 0;
+	overflow: hidden;
+}
+
+#frame {
+	height: 500px;
+	width: 700px;
+	display: inline;
+	position: fixed;
+ 	top: 50%;
+ 	left: 50%;
+ 	margin-top: -250px;
+ 	margin-left: -350px;
+}
