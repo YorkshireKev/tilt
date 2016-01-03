@@ -1,6 +1,6 @@
 #Tilt - Device orientation demo#
 
-Inspired by a nostalgic look back at the 16bit demo scene of the late 1980's. This is my little tribute to those classic Atari ST and Commodore Amiga demos.
+Since finding out that many laptops contain an accelerometer, including my ASUS Chromebook, I thought it would be fun to hack some code together to test it out. This is a browser based demo that attempts to keep an iFrame level as the device is tilted left or right.
 
 Only html5 web standards are used, so no need for flash or any such nonsense. It does require a fairly modern browser though. I've tested with Chrome and Firefox, but as I only have a Chromebook that sports an accelerometer I don't know if the tilting works in Firefox.
 
